@@ -1,0 +1,114 @@
+1.Define the types of Operating System?
+
+-An Operating System (OS) is a software that acts as an interface between computer hardware components and the user.
+
+Following are the popular types of OS (Operating System):
+
+1.Batch Operating System
+2.Multitasking/Time Sharing OS
+3.Multiprocessing OS
+4.Real Time OS
+5.Distributed OS
+
+
+1. Batch Operating System – 
+
+-This type of operating system does not interact with the computer directly. 
+-There is an operator which takes similar jobs having the same requirement and group them into batches. -
+It is the responsibility of the operator to sort jobs with similar needs. 
+
+Examples of Batch based Operating System: Payroll System, Bank Statements, etc.
+
+2.Multitasking/Time Sharing OS
+
+-Each task is given some time to execute so that all the tasks work smoothly. 
+-Each user gets the time of CPU as they use a single system. These systems are also known as Multitasking Systems. 
+-The task can be from a single user or different users also. The time that each task gets to execute is called quantum. 
+-After this time interval is over OS switches over to the next task.
+
+Examples of Time-Sharing OSs are: Multics, Unix, etc.
+
+3.Multiprocessing OS
+-A multiprocessing operating system (OS) is one in which two or more central processing units (CPUs) control the functions of the computer. 
+
+Example: UNIX Operating system is one of the most widely used multiprocessing systems.
+
+
+4.Real time OS
+-A real time operating system time interval to process and respond to inputs is very small. 
+
+Examples: Military Software Systems, Space Software Systems are the Real time OS example.
+
+5. Distributed Operating System 
+
+–These types of the operating system is a recent advancement in the world of computer technology and are being widely accepted all over the world and, that too, with a great pace. 
+-Various autonomous interconnected computers communicate with each other using a shared communication network. 
+-Independent systems possess their own memory unit and CPU. These are referred to as distributed systems. -These system’s processors differ in size and function. 
+-The major benefit of working with these types of the operating system is that it is always possible that one user can access the files or software which are not actually present on his system but some other system connected within this network i.e., remote access is enabled within the devices connected in that network. 
+
+Examples of Distributed Operating System are- LOCUS, etc
+
+
+2. Explain DHCP?
+
+
+-DHCP (Dynamic Host Configuration Protocol) is a network management protocol used to dynamically assign an Internet Protocol (IP) address to any device, or node, on a network so they can communicate using IP. 
+-DHCP automates and centrally manages these configurations rather than requiring network administrators to manually assign IP addresses to all network devices.
+
+-DHCP can be implemented on small local networks, as well as large enterprise networks.
+-DHCP will assign new IP addresses in each location when devices are moved from place to place, which means network administrators do not have to manually configure each device with a valid IP address or reconfigure the device with a new IP address if it moves to a new location on the network.
+-This dynamic process eliminates the need to manually assign IP addresses. 
+-A DHCP server can be set up and the hosts can be configured to automatically obtain an IP address.
+
+3.Explain DNS?
+
+-Domain Name Server (DNS) is a standard protocol that helps Internet users discover websites using human readable addresses. -Like a phonebook which lets you look up the name of a person and discover their number, DNS lets you type the address of a website and automatically discover the Internet Protocol (IP) address for that website.
+-Without DNS, the Internet would collapse - it would be impossible for people and machines to access Internet servers via the friendly URLs they have come to know.
+
+DNS is Used For
+
+-Resolving names of World Wide Web (WWW) sites
+-Routing messages to email servers and webmail servicesConnecting app servers, databases and middleware within a web application
+-Virtual Private Networks (VPN)
+-Peer-to-peer sharing programs
+-Multiplayer games
+-Instant messaging and online meeting services
+-Communication between IoT devices, gateways and servers.
+
+4.Explain paging?
+
+-Paging permits the physical address space of a process to be non-contiguous. It is a fixed-size partitioning scheme. In the Paging technique, the secondary memory and main memory are divided into equal fixed-size partitions.
+
+-Paging solves the problem of fitting memory chunks of varying sizes onto the backing store and this problem is suffered by many memory management schemes.
+
+-Paging helps to avoid external fragmentation and the need for compaction.
+-The paging technique divides the physical memory(main memory) into fixed-size blocks that are known as Frames and also divide the logical memory(secondary memory) into blocks of the same size that are known as Pages.
+
+-This technique keeps the track of all the free frames.
+
+-The Frame has the same size as that of a Page. A frame is basically a place where a (logical) page can be (physically) placed.
+
+5.Explain segmentation?
+
+-Segmentation is a way of dividing the addressable memory.
+-It is scheme of memory management and it generally supports the user view of memory.
+-The Logical address space is basically the collection of segments. Each segment has a name and a length.
+
+-Basically, a process is divided into segments. Like paging, segmentation divides or segments the memory. But there is a difference and that is while the paging divides the memory into a fixed size and on the other hand, segmentation divides the memory into variable segments these are then loaded into logical memory space.
+
+Some characteristics of the segmentation technique are as follows:
+
+1.The Segmentation partitioning scheme is variable-size.
+
+2.Partitions of the secondary memory are commonly known as segments.
+
+3.Partition size mainly depends upon the length of modules.
+
+Thus with the help of this technique, secondary memory and main memory are divided into unequal-sized partitions.
+
+
+
+
+
+
+
