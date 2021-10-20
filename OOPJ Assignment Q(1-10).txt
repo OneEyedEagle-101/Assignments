@@ -1,0 +1,88 @@
+1.Explain OOPS?
+
+==> Object-oriented programming (OOP) is a programming based on the concept of "objects", which are data structures that contain data, in the form of fields, often known as attributes and code in the form of procedures, often known as methods.
+
+2.Explain an abstraction? Real life example.
+
+==> Abstraction is the process of extracting the relevant properties of an object while ignoring nonessential details relative to the perspective of the viewer.
+	
+e.g.
+
+•A doctor sees (abstracts) the person as patient.  The doctor is interested in name, height, weight, age, blood group,  previous or existing diseases etc of a person whereas An employer sees (abstracts) a person as Employee. The employer is interested in name, age,  health, degree of study, work experience  etc of a person.
+   
+•For a sales tracking system relevant attributes of a salesperson might be: name, number of vehicles sold, value of vehicles sold, list of customers, commission rate, total commissions.
+
+•A car dealer might view a car from the standpoint of its selling features. Relevant properties include price, color, optional equipment, and length of warranty. On the other hand , mechanic views the car from the standpoint of systems that require maintenance. Here relevant properties include the type of oil, the size of oil filter, and the number and type of spark plug.
+
+
+
+3.Explain encapsulation? Real life example.
+
+==> Encapsulation is the process of separating the aspects of an object into external and internal aspects. The external aspects of an object need to be visible or known , to other objects in the system.  The internal aspects are details that should not affect other parts of the system. Hiding the internal aspects of an object means that they can be changed without affecting external aspects of the system.  
+
+eg. 
+1. Suppose you have an account in the bank. If your balance variable is declared as a public variable in the bank software, your account balance will be known as public, In this case, anyone can know your account balance. So, would you like it? Obviously No.
+
+So, they declare balance variable as private for making your account safe, so that anyone cannot see your account balance.
+
+The person who has to see his account balance, will have to access only private members through methods defined inside that class and this method will ask your account holder name or user Id, and password for authentication.
+
+Thus, we can achieve security by utilizing the concept of data hiding. This is called Encapsulation in Java.
+
+
+4.Explain the relationship among abstraction and encapsulation?
+
+==> abstraction focuses upon the  observable behavior of an object, whereas encapsulation focuses upon the implementation that gives rise to this behavior. abstraction is a perspective and encapsulation is implementation to achieve that perspective.
+
+5.Explain polymorphism?
+
+==> Polymorphism is an ability to appear in many forms. It refers to the ability of the system to call correct implementation of methods with the same name.
+
+eg.
+A Person who knows more than two languages he can speak in a language which he knows. Here person is Object and speak is polymorphisam.
+
+
+
+
+6.Explain Inheritance?
+
+==> The technique of creating a new class by using an existing class functionality is called inheritance in Java. In other words, inheritance is a process by which a child class acquires all the properties and behaviors of the parent class.
+
+The existing class is called parent class (a more general class) and the new class is called child class (a more specialized class). The child class inherits data and behavior from the parent class.
+
+
+
+7.How composition is better than inheritance?
+
+==> 1. In inheritance, we define the class which we are inheriting(super class) and most importantly it cannot be changed at runtime,Whereas in composition we only define a type which we want to use and which can hold its different implementation also it can change at runtime. Hence, Composition is much more flexible than Inheritance.
+
+2.In inheritance we can only extend one class, in other words more than one class can’t be extended as java do not support multiple inheritance.Whereas composition allows to use functionality from different class.
+
+3.In inheritance we need parent class in order to test child class where Composition allows to test the implementation of the classes we are using independent of parent or child class.
+
+4.Inheritance cannot extend final class.Whereas composition allows code reuse even from final classes.
+
+
+8.Which OOPS concept is used as a reuse mechanism?
+
+==> Inheritance is the OOPS concept that can be used as reuse mechanism.
+
+
+9.Which OOPS concept exposes only the necessary information to the calling functions?
+
+==>Data Hiding / Abstraction is the OOPS concept that which exposes only the necessary information to the calling functions.
+
+
+10.Explain a class? Create a class
+
+==> A class is a user defined blueprint or prototype from which objects are created.  It represents the set of properties or methods that are common to all objects of one type.
+
+
+
+
+
+
+
+
+
+
